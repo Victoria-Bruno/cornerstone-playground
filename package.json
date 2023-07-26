@@ -11,14 +11,14 @@
     "run:orthanc": "docker-compose -f ./orthanc-docker/docker-compose.yml up"
   },
   "dependencies": {
+    "@cornerstonejs/calculate-suv": "1.0.2",
     "@cornerstonejs/core": "^1.2.8",
     "@cornerstonejs/streaming-image-volume-loader": "^1.2.8",
     "@cornerstonejs/tools": "^1.2.8",
-    "dicom-parser": "1.8.20",
     "cornerstone-wado-image-loader": "^4.10.1",
-    "dicomweb-client": "0.8.4",
     "dcmjs": "^0.29.4",
-    "@cornerstonejs/calculate-suv": "1.0.2",
+    "dicom-parser": "1.8.20",
+    "dicomweb-client": "0.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
